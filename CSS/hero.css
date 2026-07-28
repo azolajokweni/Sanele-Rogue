@@ -1,0 +1,205 @@
+.hero{
+
+    height:100vh;
+
+    background:
+
+    linear-gradient(rgba(0,0,0,.65),
+    rgba(0,0,0,.7)),
+    url("../images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.hero-content{
+
+    position: relative;
+
+    z-index:10;
+
+}
+
+.hero h1{
+
+    font-size:8rem;
+
+}
+
+.hero p{
+
+    font-size:1.3rem;
+
+    margin:20px 0;
+
+}
+
+.hero-background{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    pointer-events:none;
+
+    z-index:1;
+
+}
+
+.headphones{
+
+    filter:
+
+    drop-shadow(0 0 20px rgba(212, 175, 55, .4))
+    drop-shadow(0 0 50px rgba(212, 175, 55, .4));
+
+    animation:
+    
+    rotateHeadphones 60s linear infinite,
+    pulseGlow 8s ease-in-out infinite;
+
+    position:relative;
+
+    width:650px;
+
+    height:650px;
+
+    opacity:.08;
+
+}
+
+.headband{
+
+    position:absolute;
+
+    width:380px;
+
+    height:260px;
+
+    left:50%;
+
+    top:60px;
+
+    transform:translateX(-50%);
+
+    border:18px solid var(--primary);
+
+    border-bottom:none;
+
+    border-radius:220px 220px 0 0;
+
+}
+
+.ear{
+
+    position:absolute;
+
+    width:130px;
+
+    height:180px;
+
+    border:10px solid var(--primary);
+
+    border-radius:60px;
+
+    background:#111;
+
+}
+
+.left-ear{
+
+    left:95px;
+
+    top:250px;
+
+}
+
+.right-ear{
+
+    right:95px;
+
+    top:250px;
+
+}
+
+.ear-inner{
+
+    position:absolute;
+
+    inset:15px;
+
+    border-radius:45px;
+
+    background:#222;
+
+}
+
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:30px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    animation:bounce 2s infinite;
+
+}
+
+@keyframes rotateHeadphones{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+@keyframes pulseGlow{
+
+0%,100%{
+
+filter:
+
+drop-shadow(0 0 15px rgba(212,175,55,.2));
+
+}
+
+50%{
+
+filter:
+
+drop-shadow(0 0 40px rgba(212,175,55,.45));
+
+}
+
+}

@@ -1,0 +1,11 @@
+.music-card,
+.show,
+.booking{
+
+background:var(--dark-light);
+
+padding:40px;
+
+border-radius:20px;
+
+}

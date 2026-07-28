@@ -1,0 +1,28 @@
+:root{
+
+    /* COLORS */
+
+    --primary:#d4af37;
+    --secondary:#ffffff;
+    --dark:#0b0b0b;
+    --dark-light:#171717;
+    --gray:#bfbfbf;
+
+    /* FONTS */
+
+    --heading:'Bebas Neue', sans-serif;
+    --body:'Poppins', sans-serif;
+
+    /* SPACING */
+
+    --section-padding:120px;
+
+    /* BORDER */
+
+    --radius:15px;
+
+    /* TRANSITIONS */
+
+    --transition:.4s ease;
+
+}

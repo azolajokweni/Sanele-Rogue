@@ -1,0 +1,41 @@
+.about .container{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:80px;
+
+align-items:center;
+
+}
+
+.about img{
+
+border-radius:20px;
+
+}
+
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.stat{
+
+background:var(--dark-light);
+
+padding:25px;
+
+text-align:center;
+
+border-radius:15px;
+
+}

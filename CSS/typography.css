@@ -1,0 +1,32 @@
+h1,h2,h3{
+
+    font-family:var(--heading);
+    letter-spacing:2px;
+
+}
+
+h1{
+
+    font-size:6rem;
+
+}
+
+h2{
+
+    font-size:4rem;
+    margin-bottom:30px;
+
+}
+
+p{
+
+    color:var(--gray);
+    line-height:1.8;
+
+}
+
+section{
+
+    padding:var(--section-padding) 0;
+
+}

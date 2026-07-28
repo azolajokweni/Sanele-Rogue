@@ -1,0 +1,71 @@
+@keyframes bounce{
+
+0%,20%,50%,80%,100%{
+
+transform:translateY(0);
+
+}
+
+40%{
+
+transform:translateY(-12px);
+
+}
+
+60%{
+
+transform:translateY(-6px);
+
+}
+
+}
+
+.animate-title{
+
+opacity:0;
+
+transform:translateY(80px);
+
+animation:title 1.2s forwards;
+
+}
+
+.animate-subtitle{
+
+opacity:0;
+
+transform:translateY(50px);
+
+animation:title 1s .4s forwards;
+
+}
+
+.animate-button{
+
+opacity:0;
+
+animation:fade 1s .8s forwards;
+
+}
+
+@keyframes title{
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes fade{
+
+to{
+
+opacity:1;
+
+}
+
+}

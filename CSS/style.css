@@ -1,0 +1,153 @@
+@import url("reset.css");
+@import url("variables.css");
+@import url("typography.css");
+@import url("navbar.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("music.css");
+@import url("gallery.css");
+@import url("shows.css");
+@import url("booking.css");
+@import url("footer.css");
+@import url("animations.css");
+@import url("responsive.css");
+@import url("lightbox.css");
+
+.btn{
+
+    display:inline-block;
+    padding:15px 40px;
+
+    border:2px solid var(--primary);
+
+    color:white;
+
+    transition:var(--transition);
+
+    font-weight:600;
+
+    margin-top:25px;
+
+}
+
+.btn:hover{
+
+    background:var(--primary);
+
+    color:black;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 25px rgba(212,175,55,.5);
+
+}
+
+.progress-bar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:4px;
+
+background:gold;
+
+width:0;
+
+z-index:9999;
+
+}
+
+.reveal{
+
+opacity:0;
+
+transform:translateY(80px);
+
+transition:1s;
+
+}
+
+.reveal.active{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+#topBtn{
+
+position:fixed;
+
+right:30px;
+
+bottom:30px;
+
+width:50px;
+
+height:50px;
+
+border:none;
+
+border-radius:50%;
+
+background:gold;
+
+display:none;
+
+cursor:pointer;
+
+}
+
+.nav-links a.active{
+
+    color:gold;
+
+}
+
+.cursor-glow{
+
+position:fixed;
+
+width:350px;
+
+height:350px;
+
+border-radius:50%;
+
+pointer-events:none;
+
+background:
+
+radial-gradient(
+
+circle,
+
+rgba(212,175,55,.18),
+
+transparent 70%
+
+);
+
+transform:translate(-50%,-50%);
+
+z-index:0;
+
+}
+
+.lazy{
+
+filter:blur(20px);
+
+transition:1s;
+
+}
+
+.lazy.loaded{
+
+filter:blur(0);
+
+}
