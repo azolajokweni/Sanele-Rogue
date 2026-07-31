@@ -5,6 +5,7 @@ import "./reveal.js";
 import "./counter.js";
 import "./lightbox.js";
 import "./backToTop.js";
+import "./videoModal.js";
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
 
