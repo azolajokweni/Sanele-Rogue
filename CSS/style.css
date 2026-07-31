@@ -6,13 +6,12 @@
 @import url("about.css");
 @import url("music.css");
 @import url("gallery.css");
-@import url("shows.css");
+@import url("videos.css");
 @import url("booking.css");
 @import url("footer.css");
+@import url("lightbox.css");
 @import url("animations.css");
 @import url("responsive.css");
-@import url("lightbox.css");
-@import url("videos.css");
 
 .btn{
 
